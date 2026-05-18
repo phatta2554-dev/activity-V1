@@ -1,0 +1,17 @@
+{
+  "name": "activity-news-hub",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "เว็บแสดงข่าวสารกิจกรรมจากเพจ Facebook ของโรงเรียนบ้านบึง",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.4",
+    "node-fetch": "^3.4.2",
+    "nodemailer": "^6.9.4",
+    "twilio": "^4.11.0"
+  }
+}
